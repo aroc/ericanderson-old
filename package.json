@@ -1,0 +1,23 @@
+{
+  "name": "ericanderson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aroc/ericanderson.git"
+  },
+  "author": "Eric Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aroc/ericanderson/issues"
+  },
+  "homepage": "https://github.com/aroc/ericanderson#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
