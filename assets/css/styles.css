@@ -1,0 +1,53 @@
+@import "vendor/normalize.css";
+@import "vendor/skeleton.css";
+
+body {
+  background: url('../img/background.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.68);
+  width: 100%;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+  color: #343434;
+  font-weight: 700;
+}
+
+p.description {
+  text-align: justify;
+  color: #444;
+  font-size: 26px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.locations {
+  padding: 0;
+  list-style: none;
+}
+
+.locations li a { 
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  color: #444;
+}
